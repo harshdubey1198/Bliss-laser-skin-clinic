@@ -8129,11 +8129,11 @@ ol.wp-block-rss {
   overflow: hidden;
 }
 .breadcumb-content{
-  position: relative;
+  position: relative !important;
 }
 .breadcumb-content-inner{
-position: absolute; 
-right: 0;
+position: absolute !important; 
+right: 0 !important;
 }
 /* Large devices */
 @media (max-width: 1199px) {

@@ -4,7 +4,7 @@ Template Name: Bliss
 Template URL: https://themeholy.com/Bliss
 Description: DR. Shweta Ahuja – Best skin care Clinic in Chandigarh HTML Template
 Author: Themeholy
-Author URI: https://themeforest.net/user/themeholy
+Author URI: https://magnifyingindia.com/
 Version: 1.0.0
 */
 /*================================= 
@@ -7605,6 +7605,8 @@ ol.wp-block-rss {
 
 .copyright-text a {
   color: var(--theme-color);
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .copyright-text a:hover {
@@ -21015,7 +21017,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .service-img img {
-  width: 336px !important;
+  width: 100% !important;
   height: 236px !important;
   object-fit: cover;
 }

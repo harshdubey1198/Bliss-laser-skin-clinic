@@ -1871,8 +1871,11 @@ textarea.is-invalid {
 
 .th-btn.style3:hover:before, .th-btn.style3:hover:after {
   background-color: var(--white-color);
+  border: 1px solid #eb0f76;
 }
-
+.bor-white {
+  border: 1px solid #ff71b3 !important;
+}
 .th-btn.style4 {
   background-color: var(--title-color);
   color: var(--white-color);
@@ -9487,6 +9490,9 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 }
 .bb-20{
   border-bottom: 30px solid #eb0f76;
+}
+.bdfl-10{
+backdrop-filter: blur(10px);
 }
 .bright-1{
   backdrop-filter: blur(10px);
@@ -19105,7 +19111,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .appointment-work {
-  margin-top: 100px;
+  margin-top: 200px;
   max-width: 549px;
   /* Medium devices */
 }
@@ -20937,6 +20943,7 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   z-index: 1;
+  min-height: 267px;
   margin-top: 30px;
 }
 
@@ -20952,6 +20959,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .service-box_text {
   margin: 0 0 -0.5em 0;
+  color: var(--white-color) !important;
 }
 
 .service-box .global-icon {
@@ -21007,9 +21015,13 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .service-img img {
-  width: 100%;
+  width: 336px !important;
+  height: 236px !important;
+  object-fit: cover;
 }
-
+.h-560{
+  height: 560px !important;
+}
 /* Service Grid ---------------------------------- */
 .service-area {
   background-color: var(--white-color);
@@ -22234,7 +22246,7 @@ span.select2-selection.select2-selection--single:focus {
   padding: 0 25px 0 25px;
   padding-right: 45px;
   border: 0;
-  background-color: var(--white-color);
+  background-color: var(--smoke-color);
   border-radius: 0;
   font-size: 16px;
   color: var(--body-color);

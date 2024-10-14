@@ -4410,7 +4410,7 @@ a.text-theme:hover,
   padding: 10px 20px;
   margin-right: 6px;
   margin-bottom: 10px;
-  color: var(--body-color);
+  color: var(--smoke-color);
   background-color: var(--white-color);
   border-radius: 0;
 }
@@ -8606,7 +8606,7 @@ blockquote.has-very-dark-gray-color {
 .blog-single .social-links a {
   display: inline-block;
   font-size: 14px;
-  color: var(--body-color);
+  color: var(--white-color);
   text-align: center;
   border-radius: 0;
 }
@@ -8756,7 +8756,7 @@ blockquote.has-very-dark-gray-color {
 
 .share-links-title {
   font-size: 14px;
-  color: var(--title-color);
+  color: var(--white-color);
   font-family: var(--body-font);
   font-weight: 500;
   margin: 0 15px 0 0;
@@ -8994,7 +8994,7 @@ blockquote.has-very-dark-gray-color {
   margin-bottom: 2px;
   font-weight: 400;
   font-style: italic;
-  color: var(--body-color);
+  color: var(--border-color);
 }
 
 .th-comments-wrap .commented-on i {
@@ -9006,6 +9006,7 @@ blockquote.has-very-dark-gray-color {
 .th-comments-wrap .name {
   margin-bottom: 8px;
   font-size: 24px;
+  color: white !important;
 }
 
 .th-comments-wrap .comment-top {
@@ -9021,6 +9022,7 @@ blockquote.has-very-dark-gray-color {
 
 .th-comments-wrap .text {
   margin-bottom: -0.46em;
+  color: white !important;
 }
 
 .th-comments-wrap .children {
@@ -27212,7 +27214,10 @@ span.select2-selection.select2-selection--single:focus {
   top: -15%;
   right: -20%;
 }
-
+.blog-img img{
+  width: 400px;
+  height: 300px;
+}
 /* Extra small devices */
 @media (max-width: 375px) {
   .choose-slide-image.style3 .img {

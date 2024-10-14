@@ -21253,7 +21253,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .page-img img {
-  width: 100%;
+  width: auto;
+  height:400px;
 }
 
 .page-single {

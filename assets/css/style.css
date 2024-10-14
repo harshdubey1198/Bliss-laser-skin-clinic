@@ -4199,7 +4199,7 @@ a.text-theme:hover,
   padding: 16px 45px 19px 0px;
   font-size: 16px;
   line-height: 1.313;
-  color: var(--body-color);
+  color: var(--white-color);
   border-radius: 0;
   border-bottom: 1px solid var(--border-color);
 }
@@ -4238,7 +4238,7 @@ a.text-theme:hover,
 .widget_archive li > span,
 .widget_categories li > span,
 .wp-block-categories li > span {
-  color: var(--body-color);
+  color: var(--white-color);
   text-align: center;
   position: absolute;
   right: 0;
@@ -4335,6 +4335,7 @@ a.text-theme:hover,
   font-size: 30px;
   font-weight: 700;
   font-family: var(--title-font);
+  color: var(--white-color);
   line-height: 1em;
   padding-bottom: 17px;
   margin: -0.12em 0 30px 0;
@@ -4686,9 +4687,11 @@ a.text-theme:hover,
   margin-bottom: 0;
 }
 
-.sidebar-area select,
-.sidebar-area input {
-  background-color: var(--white-color);
+.sidebar-area .form-select,
+.sidebar-area input , .sidebar-area textarea {
+  background-color: transparent;
+  border: 1px solid #fff !important;
+  color: var(--white-color);
 }
 
 .sidebar-area .sidebar-gallery {
@@ -13822,6 +13825,12 @@ span.select2-selection.select2-selection--single:focus {
 .img-box1 {
   position: relative;
 }
+ 
+@media (width > 768px){
+  .about-sec{
+    padding-top: 100px !important;
+  }
+}
 
 .img-box1 .img2 {
   position: absolute;
@@ -13835,7 +13844,7 @@ span.select2-selection.select2-selection--single:focus {
 .img-box1 .img2 img {
   width: 298px;
   object-fit: fill;
-  height: 376px;
+  height: 100%;
 }
 @media (width>768px){
   .about-img1{
@@ -22194,7 +22203,7 @@ span.select2-selection.select2-selection--single:focus {
   padding: 0 25px 0 25px;
   padding-right: 45px;
   border: 0;
-  background-color: var(--white-color);
+  /* background-color: var(--white-color); */
   border-radius: 0;
   font-size: 16px;
   color: var(--body-color);

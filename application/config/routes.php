@@ -62,6 +62,17 @@ $route['blog'] = 'Front/blog';
 $route['gallary'] = 'Front/gallary';
 $route['contact'] = 'Front/contact';
 $route['blog-detail/(:any)'] = 'Front/blog_detail/$1';
+//Services
+$route['hydrafacial-treatment'] = 'Front/hydrafacial_treatment';
+$route['botox-treatment'] = 'Front/botox_treatment';
+$route['carbon-laser-facial'] = 'Front/carbon_laser_facial';
+$route['cosmetology'] = 'Front/cosmetology';
+$route['facial-wrinkles-removal'] = 'Front/facial_wrinkles_removal';
+$route['chemical-peels'] = 'Front/chemical_peels';
+$route['tattoo-removal'] = 'Front/tattoo_removal';
+$route['permanent-makeup'] = 'Front/permanent_makeup';
+$route['gallery'] = 'Front/gallery';
+
 
 
 /***************Admin*************/

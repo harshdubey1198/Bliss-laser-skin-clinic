@@ -78,6 +78,42 @@ class Front extends CI_Controller {
 		$this->load->view('fornt_end/contact');
 	}
 
+	public function hydrafacial_treatment() {
+        $this->load->view('fornt_end/hydrafacial_treatment');
+    }
+
+    public function botox_treatment() {
+        $this->load->view('fornt_end/botox_treatment');
+    }
+
+    public function carbon_laser_facial() {
+        $this->load->view('fornt_end/carbon_laser_facial');
+    }
+
+    public function cosmetology() {
+        $this->load->view('fornt_end/cosmetology');
+    }
+
+    public function facial_wrinkles_removal() {
+        $this->load->view('fornt_end/facial_wrinkles_removal');
+    }
+
+    public function chemical_peels() {
+        $this->load->view('fornt_end/chemical_peels');
+    }
+
+    public function tattoo_removal() {
+        $this->load->view('fornt_end/tattoo_removal');
+    }
+
+    public function permanent_makeup() {
+        $this->load->view('fornt_end/permanent_makeup');
+    }
+
+	public function gallery() {
+        $this->load->view('fornt_end/gallery');
+    }
+
 	public function blog_detail()
 	{
 		$data['latest'] = $this->Main_model->fetch_data_by_limit('post_blog', ['status'=>0], 'id DESC', 0,4);

@@ -31,7 +31,7 @@
                         </div>
                        
                         <p class="mb-30 smokewhite">Dr Shweta Ahuja is a well-known celebrity aesthetician and a pioneer in the field of aesthetic in the region. She is one of the leading experts in aesthetic medicine. With over 10 years of experience in beautifying people,her deep understanding of lasers and her passion for her work has made her a well known figure amongst various celebrity clients. She has perfected thousands of beautiful faces and helped her patients rediscover their natural beauty. She deals in all skin related diseases with special interest in nonsurgical facelift procedures.</p>
-                        <a href="about.html" class="th-btn">Discover More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <a href="<?php echo base_url()?>about-us" class="th-btn">Discover More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@ Gallery Area
     </div><!--==============================
 Team Area  
 ==============================-->
-    <section class="team-area bg-top-center overflow-hidden space bb-20" data-bg-src="<?php echo base_url()?>assets/img/laserclinic-highlight3.jpg">
+    <!-- <section class="team-area bg-top-center overflow-hidden space bb-20" data-bg-src="<?php echo base_url()?>assets/img/laserclinic-highlight3.jpg">
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-12">
@@ -184,7 +184,6 @@ Team Area
                 </div>
             </div>
             <div class="row slider-shadow th-carousel teamSlide1" id="teamSlide1" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true">
-                <!-- Single Item -->
                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="th-team team-card wow fadeInUp">
                         <div class="team-img">
@@ -206,7 +205,6 @@ Team Area
                         </div>
                     </div>
                 </div>
-                <!-- Single Item -->
                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="th-team team-card wow fadeInDown">
                         <div class="team-img">
@@ -228,7 +226,6 @@ Team Area
                         </div>
                     </div>
                 </div>
-                <!-- Single Item -->
                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="th-team team-card wow fadeInUp">
                         <div class="team-img">
@@ -250,7 +247,6 @@ Team Area
                         </div>
                     </div>
                 </div>
-                <!-- Single Item -->
                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="th-team team-card wow fadeInDown">
                         <div class="team-img">
@@ -274,9 +270,9 @@ Team Area
                 </div>
             </div>
         </div>
-        <!-- <div class="shape-mockup" data-top="0%" data-right="0%"><img loading="lazy" src="<?php echo base_url()?>assets/img/shape/flower_1_2.png" alt="shape"> -->
         </div>
-    </section><!--==============================
+    </section> -->
+<!--==============================
 Price Area  
 ==============================-->
     <!-- <section class="overflow-hidden space-bottom">
@@ -421,87 +417,110 @@ Appointment Area
     </div><!--==============================
 Testimonial Area  
 ============================== -->
-    <div class="position-relative overflow-hidden space">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="testimonial-wrapper wow fadeInUp">
-                        <div class="th-carousel number-dots" data-asnavfor="#testiSlide" id="tesitslide-img" data-slide-show="1" data-dots="true" data-xl-dots="true" data-ml-dots="true" data-lg-dots="true" data-md-dots="true" data-fade="true">
-                            <div>
-                                <div class="testi-slide-img"><img loading="lazy" src="https://res.cloudinary.com/harshdubey1198/image/upload/v1721475587/dummy-userImages/hopbqozew5pq9lsfhlke.jpg" alt=""></div>
-                            </div>
-
-                            <div>
-                                <div class="testi-slide-img"><img loading="lazy" src="https://res.cloudinary.com/harshdubey1198/image/upload/v1721475588/dummy-userImages/bqof59zlzkampcaxpws9.jpg" alt=""></div>
-                            </div>
-
-                            <div>
-                                <div class="testi-slide-img"><img loading="lazy" src="https://res.cloudinary.com/harshdubey1198/image/upload/v1721475588/dummy-userImages/ny8otxguxjxbhyzymp8t.jpg" alt=""></div>
-                            </div>
-
-                        </div>
-                        <!-- <div class="testi-shape"><img loading="lazy" src="assets/img/shape/flower_1_5.svg" alt=""></div> -->
-                    </div>
-                </div>
-
-                <div class="col-lg-6 wow fadeInRight">
-                    <div class="title-area text-center">
-                        <span class="sub-title style2 theme-color">Testimonials</span>
-                      
-                        <h2 class="sec-title">Our Customer Feedback</h2>
-                    </div>
-                    <div class="testi-item-slide">
-                        <div class="th-carousel" id="testiSlide" data-slide-show="1" data-fade="true" data-asnavfor=" #tesitslide-img">
-                            <div>
-                                <div class="testi-item">
-                                    <div class="testi-item_img"><img loading="lazy" src="https://res.cloudinary.com/harshdubey1198/image/upload/v1721475587/dummy-userImages/hopbqozew5pq9lsfhlke.jpg" alt=""></div>
-                                    <h3 class="box-title">Whether youre preparing for a special occasion or simply want to pamper yourself, our talented stylists will work closely with you to create a look that complements your individual style.</h3>
-                                    <div class="testi-item_profile">
-                                        <div class="media-body">
-                                            <h4 class="testi-item_name">Angelina Margret</h4>
-                                            <p class="testi-item_desig">Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="testi-item">
-                                    <div class="testi-item_img"><img loading="lazy" src="https://res.cloudinary.com/harshdubey1198/image/upload/v1721475588/dummy-userImages/bqof59zlzkampcaxpws9.jpg" alt=""></div>
-                                    <h3 class="box-title">Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur dui posuere.</h3>
-                                    <div class="testi-item_profile">
-                                        <div class="media-body">
-                                            <h4 class="testi-item_name">Senjuti das</h4>
-                                            <p class="testi-item_desig">Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="testi-item">
-                                    <div class="testi-item_img"><img loading="lazy" src="https://res.cloudinary.com/harshdubey1198/image/upload/v1721475588/dummy-userImages/ny8otxguxjxbhyzymp8t.jpg" alt=""></div>
-                                    <h3 class="box-title">Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor adipiscing elit.</h3>
-                                    <div class="testi-item_profile">
-                                        <div class="media-body">
-                                            <h4 class="testi-item_name">Jenifer Lopez</h4>
-                                            <p class="testi-item_desig">Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
+<section class="space overflow-hidden" id="testimonial-sec">
+    <div class="container">
+        <div class="title-area text-center">
+            <span class="sub-title style2 theme-color">Testimonials</span>
+            <h2 class="sec-title">What Our Clients Say</h2>
+        </div>
+        <div class="row slider-shadow th-carousel" id="testimonialSlide1" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
+            <!-- Review 1 -->
+            <div class="col-md-6 col-xl-4">
+                <div class="testi-card wow fadeInUp">
+                    <div class="testi-card_wrapper">
+                        <div class="testi-card-content">
+                            <h3 class="box-title">"Dr. Shweta's Clinic's staff and Dr. Shweta herself is fantastic... I visited her to treat my pigmentation, and I am amazed and satisfied. Highly recommend Bliss Aesthetic Skin Laser Clinic for your skincare!"</h3>
+                            <div class="testi-meta text-center">
+                                <h5 class="testi-grid_name">Komal Preet</h5>
+                                <!-- <p class="testi-grid_desig text-muted">Customer</p> -->
                             </div>
                         </div>
-                        <div class="testi-quote"><img loading="lazy" src="<?php echo base_url()?>assets/img/shape/quote.png" alt=""></div>
-                        <!-- <div class="testi-shape1"><img loading="lazy" src="assets/img/shape/leaf.svg" alt=""></div> -->
-                        <!-- <div class="testi-shape2"><img loading="lazy" src="assets/img/shape/flower_1_4.png" alt=""></div> -->
                     </div>
                 </div>
             </div>
+
+            <!-- Review 2 -->
+            <div class="col-md-6 col-xl-4">
+                <div class="testi-card wow fadeInDown">
+                    <div class="testi-card_wrapper">
+                        <div class="testi-card-content">
+                            <h3 class="box-title">"Dr. Shweta is excellent at her work and such a happy soul. She provided effective solutions that worked wonders for my skin. She gives equal attention to all her patients."</h3>
+                            <div class="testi-meta text-center">
+                                <h5 class="testi-grid_name">Varsha Rani</h5>
+                                <!-- <p class="testi-grid_desig text-muted">Customer</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="col-md-6 col-xl-4">
+                <div class="testi-card wow fadeInUp">
+                    <div class="testi-card_wrapper">
+                        <div class="testi-card-content">
+                            <h3 class="box-title">"The carbon laser facial at Bliss Aesthetic is a game-changer! My skin is glowing, and the pigmentation I've battled for years has noticeably faded. Thank you, Dr. Shweta!"</h3>
+                            <div class="testi-meta text-center">
+                                <h5 class="testi-grid_name">Yogita Rajput</h5>
+                                <!-- <p class="testi-grid_desig text-muted">Customer</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="col-md-6 col-xl-4">
+                <div class="testi-card wow fadeInDown">
+                    <div class="testi-card_wrapper">
+                        <div class="testi-card-content">
+                            <h3 class="box-title">"I visited Bliss Aesthetic clinic for hair PRP as my friend recommended it, and I am fully satisfied with the results. My hair fall has stopped, and I'm seeing new growth."</h3>
+                            <div class="testi-meta text-center">
+                                <h5 class="testi-grid_name">Jaskeerat Singh</h5>
+                                <!-- <p class="testi-grid_desig text-muted">Customer</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="col-md-6 col-xl-4">
+                <div class="testi-card wow fadeInUp">
+                    <div class="testi-card_wrapper">
+                        <div class="testi-card-content">
+                            <h3 class="box-title">"I was having acne and acne scars. My friend referred me to Bliss Aesthetic clinic. Dr. Shweta listened patiently and provided the treatment. I'm feeling much better now. Thanks again, Dr. Shweta!"</h3>
+                            <div class="testi-meta text-center">
+                                <h5 class="testi-grid_name">Kasim Malik</h5>
+                                <!-- <p class="testi-grid_desig text-muted">Customer</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 6 -->
+            <div class="col-md-6 col-xl-4">
+                <div class="testi-card wow fadeInDown">
+                    <div class="testi-card_wrapper">
+                        <div class="testi-card-content">
+                            <h3 class="box-title">"Dr. Shweta is very nice. After consulting with her, my skin has become very clear, and my pimple marks have greatly reduced. I recommend everyone to visit!"</h3>
+                            <div class="testi-meta text-center">
+                                <h5 class="testi-grid_name">Shilpi Singh</h5>
+                                <!-- <p class="testi-grid_desig text-muted">Customer</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more reviews here in the same structure -->
+
         </div>
-        <!-- <div class="shape-mockup jump d-none d-xxl-block" data-top="30%" data-right="0%"><img loading="lazy" src="assets/img/shape/leaves_4.png" alt="shape">
-        </div> -->
     </div>
-    <div class="sec-shape">
-        <span class="sec-shape_img"><img loading="lazy" src="<?php echo base_url()?>assets/img/icon/girl.svg" alt=""></span>
-    </div><!--==============================
+</section>    
+
+<!--==============================
 Blog Area  
 ==============================-->
     <section class="space overflow-hidden" id="blog-sec">
@@ -521,11 +540,11 @@ Blog Area
                             </div>
                             <div class="blog-card-content">
                                 <div class="blog-meta">
-                                    <a href="blog.html"><i class="fa-solid fa-user"></i>By Dr. Shweta Ahuja</a>
-                                    <a href="blog.html"><i class="fa-solid fa-tags"></i>Skincare</a>
+                                    <a href="#"><i class="fa-solid fa-user"></i>By Dr. Shweta Ahuja</a>
+                                    <a href="#"><i class="fa-solid fa-tags"></i>Skincare</a>
                                 </div>
-                                <h3 class="box-title"><a href="blog-details.html">Benefits of Carbon Laser Facial for a Glowing Skin</a></h3>
-                                <a href="blog-details.html" class="line-btn">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                                <h3 class="box-title"><a href="#">Benefits of Carbon Laser Facial for a Glowing Skin</a></h3>
+                                <a href="#" class="line-btn">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -541,11 +560,11 @@ Blog Area
                             </div>
                             <div class="blog-card-content">
                                 <div class="blog-meta">
-                                    <a href="blog.html"><i class="fa-solid fa-user"></i>By Dr. Shweta Ahuja</a>
-                                    <a href="blog.html"><i class="fa-solid fa-tags"></i>Tattoo Removal</a>
+                                    <a href="#"><i class="fa-solid fa-user"></i>By Dr. Shweta Ahuja</a>
+                                    <a href="#"><i class="fa-solid fa-tags"></i>Tattoo Removal</a>
                                 </div>
-                                <h3 class="box-title"><a href="blog-details.html">Understanding the Laser Tattoo Removal Process</a></h3>
-                                <a href="blog-details.html" class="line-btn">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                                <h3 class="box-title"><a href="#">Understanding the Laser Tattoo Removal Process</a></h3>
+                                <a href="#" class="line-btn">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -561,11 +580,11 @@ Blog Area
                             </div>
                             <div class="blog-card-content">
                                 <div class="blog-meta">
-                                    <a href="blog.html"><i class="fa-solid fa-user"></i>By Dr. Shweta Ahuja</a>
-                                    <a href="blog.html"><i class="fa-solid fa-tags"></i>Chemical Peels</a>
+                                    <a href="#"><i class="fa-solid fa-user"></i>By Dr. Shweta Ahuja</a>
+                                    <a href="#"><i class="fa-solid fa-tags"></i>Chemical Peels</a>
                                 </div>
-                                <h3 class="box-title"><a href="blog-details.html">How Chemical Peels Can Rejuvenate Your Skin</a></h3>
-                                <a href="blog-details.html" class="line-btn">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                                <h3 class="box-title"><a href="#">How Chemical Peels Can Rejuvenate Your Skin</a></h3>
+                                <a href="#" class="line-btn">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -581,11 +600,11 @@ Blog Area
                             </div>
                             <div class="blog-card-content">
                                 <div class="blog-meta">
-                                    <a href="blog.html"><i class="fa-solid fa-user"></i>By Dr. Shweta Ahuja</a>
-                                    <a href="blog.html"><i class="fa-solid fa-tags"></i>Permanent Makeup</a>
+                                    <a href="#"><i class="fa-solid fa-user"></i>By Dr. Shweta Ahuja</a>
+                                    <a href="#"><i class="fa-solid fa-tags"></i>Permanent Makeup</a>
                                 </div>
-                                <h3 class="box-title"><a href="blog-details.html">Enhance Your Look with Permanent Makeup</a></h3>
-                                <a href="blog-details.html" class="line-btn">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                                <h3 class="box-title"><a href="#">Enhance Your Look with Permanent Makeup</a></h3>
+                                <a href="#" class="line-btn">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -600,7 +619,7 @@ Blog Area
     </section> <!--==============================
 Brand Area  
 ==============================-->
-    <div class="brand-sec bg-white ">
+    <!-- <div class="brand-sec bg-white ">
         <div class="container-fluid">
             <div class="row th-carousel" id="brandSlide1" data-slide-show="7" data-xl-slide-show="4" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="3" data-xs-slide-show="1">
                 <div class="col-auto">
@@ -669,5 +688,6 @@ Brand Area
                 </div>
             </div>
         </div>
-    </div><!--==============================
+    </div> -->
+    <!--==============================
 <?php require_once('inc/footer.php'); ?>
